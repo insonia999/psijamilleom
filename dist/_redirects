@@ -1,5 +1,0 @@
-# Netlify SPA fallback
-# Qualquer caminho que não exista como arquivo serve o index.html,
-# permitindo que a rota /politica-de-privacidade funcione ao recarregar.
-# Status 200 = rewrite (mantém a URL na barra do navegador)
-/*    /index.html   200
