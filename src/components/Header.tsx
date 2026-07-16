@@ -15,11 +15,10 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed w-full top-0 z-50 transition-all duration-300 ${isScrolled
           ? "bg-white/95 backdrop-blur-md shadow-sm border-b border-[#f5efe7]/60"
           : "bg-transparent border-b border-transparent"
-      }`}
+        }`}
     >
       <div className="max-w-[1232px] mx-auto px-6 h-[72px] flex items-center justify-between">
         <div className="flex flex-col select-none mr-4">
@@ -65,7 +64,7 @@ export default function Header() {
             Dúvidas
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=5551993425951&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."
+            href="https://api.whatsapp.com/send?phone=5531996379693&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."
             target="_blank"
             rel="noopener noreferrer"
             className="ml-2 bg-[#a18db8] hover:bg-[#8e7ca3] text-white px-4 py-2 rounded-full text-[13px] font-semibold tracking-wide transition-all duration-300 shadow-sm transform-gpu will-change-transform hover:shadow-lg hover:shadow-[#a18db8]/40 hover:-translate-y-[1px] whitespace-nowrap"
@@ -114,7 +113,7 @@ export default function Header() {
             Dúvidas
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=5551993425951&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."
+            href="https://api.whatsapp.com/send?phone=5531996379693&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}

@@ -10,7 +10,7 @@ export default function Footer() {
   useEffect(() => {
     const checkPlatform = () => {
       const userAgent = navigator.userAgent || navigator.vendor || (window as any).opera;
-      
+
       const isMobileUA = /android|iphone|ipad|ipod/i.test(userAgent);
       setIsMobile(isMobileUA);
 
@@ -51,7 +51,7 @@ export default function Footer() {
               Estou aqui para te acolher.
             </p>
             <a
-              href="https://api.whatsapp.com/send?phone=5551993425951&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."
+              href="https://api.whatsapp.com/send?phone=5531996379693&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-white/20 hover:bg-white/35 text-white border border-white/30 px-6 py-3.5 rounded-full text-[14px] font-bold tracking-wide transition-all duration-300"
@@ -157,13 +157,13 @@ export default function Footer() {
               </div>
               <div className="relative">
                 <a
-                  href={isMobile ? "#" : "https://api.whatsapp.com/send?phone=5551993425951&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."}
+                  href={isMobile ? "#" : "https://api.whatsapp.com/send?phone=5531996379693&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."}
                   target={isMobile ? undefined : "_blank"}
                   rel={isMobile ? undefined : "noopener noreferrer"}
                   onClick={handlePhoneClick}
                   className="leading-tight font-medium text-[#bfb5a8] hover:text-[#bba7d1] transition-colors group-hover/phone:text-[#bba7d1]"
                 >
-                  Telefone: (51) 99342-5951
+                  Telefone: (31) 99637-9693
                 </a>
 
                 {showPhoneOptions && (
@@ -174,7 +174,7 @@ export default function Footer() {
                         Como prefere falar?
                       </div>
                       <a
-                        href="tel:+5551993425951"
+                        href="tel:+5531996379693"
                         onClick={() => setShowPhoneOptions(false)}
                         className="px-3 py-2 hover:bg-[#c9b8dc]/10 active:bg-[#c9b8dc]/20 rounded-xl text-xs font-semibold flex items-center gap-2 transition-colors text-[#9e9282]"
                       >
@@ -182,7 +182,7 @@ export default function Footer() {
                         Ligar (Discador)
                       </a>
                       <a
-                        href="https://api.whatsapp.com/send?phone=5551993425951&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."
+                        href="https://api.whatsapp.com/send?phone=5531996379693&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() => setShowPhoneOptions(false)}

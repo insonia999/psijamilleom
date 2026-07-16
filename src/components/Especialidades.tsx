@@ -18,7 +18,7 @@ export default function Especialidades() {
     },
     {
       icon: <HeartHandshake className="w-6 h-6" />,
-      title: "Terapia relacional para vínculos não monogâmicos",
+      title: "Terapia para vínculos não monogâmicos",
       description:
         "Um espaço de escuta voltado para pessoas que vivenciam relações não monogâmicas, oferecendo um lugar de reflexão sobre os desafios, acordos e formas de intimidade que atravessam esses vínculos, respeitando a singularidade de cada experiência.",
     },

@@ -43,7 +43,7 @@ export default function Hero() {
 
           <div className="flex flex-col items-center gap-4 mt-8 w-full">
             <a
-              href="https://api.whatsapp.com/send?phone=5551993425951&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."
+              href="https://api.whatsapp.com/send?phone=5531996379693&text=Ol%C3%A1%20Jamille!%20Visitei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#c9b8dc] text-white px-7 py-4 rounded-full text-[15px] font-bold tracking-wide transition-all duration-300 transform-gpu will-change-transform hover:bg-[#bba7d1] hover:shadow-lg hover:shadow-[#c9b8dc]/30 hover:-translate-y-[2px]"
