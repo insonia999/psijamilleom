@@ -72,7 +72,7 @@ export default function PsicoterapiaInfo() {
             className="flex flex-col text-left order-1 lg:col-start-1 lg:row-start-1"
           >
             <h2 className="font-serif text-[28px] md:text-[34px] font-bold text-[#c9b8dc] mb-6 tracking-tight">
-              Para quem é a psicoterapia?
+              Para quem é<br />a psicoterapia?
             </h2>
             <div className="space-y-2.5 text-[#4a4444] font-sans text-[16.5px] md:text-[18px] leading-relaxed">
               <div className="flex items-start gap-3">

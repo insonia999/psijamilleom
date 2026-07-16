@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Heart, Users } from "lucide-react";
+import { Heart, Users, HeartHandshake } from "lucide-react";
 
 export default function Especialidades() {
 
@@ -14,7 +14,13 @@ export default function Especialidades() {
       icon: <Users className="w-6 h-6" />,
       title: "Terapia de casal",
       description:
-        "Terapia para casais e pessoas em relações afetivas diversas, incluindo relações não monogâmicas. Um espaço de escuta e elaboração para pessoas que desejam compreender, estimular e repensar seus vínculos, acordos e formas de intimidade.",
+        "Nenhuma relação permanece igual ao longo do tempo. Entre conflitos, mudanças e novos ciclos, a terapia pode favorecer conversas difíceis, ampliar perspectivas e fortalecer a construção de dinâmicas mais autênticas e satisfatórias.",
+    },
+    {
+      icon: <HeartHandshake className="w-6 h-6" />,
+      title: "Terapia relacional para vínculos não monogâmicos",
+      description:
+        "Um espaço de escuta voltado para pessoas que vivenciam relações não monogâmicas, oferecendo um lugar de reflexão sobre os desafios, acordos e formas de intimidade que atravessam esses vínculos, respeitando a singularidade de cada experiência.",
     },
   ];
 
@@ -30,7 +36,7 @@ export default function Especialidades() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[920px] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[1200px] mx-auto">
           {services.map((svc, idx) => (
             <motion.article
               key={idx}

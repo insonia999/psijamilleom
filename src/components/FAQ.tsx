@@ -9,7 +9,7 @@ export default function FAQ() {
     {
       question: "Como funciona a primeira sessão de terapia?",
       answer:
-        "A primeira sessão de psicoterapia é um momento de acolhimento, onde vamos conversar livremente sobre suas demandas e expectativas e pensarmos se faz sentido nossa aliança terapêutica. É um encontro sem pressão, que tem o objetivo de desenharmos as possibilidades de trabalho e firmarmos o contrato terapêutico, como horários e valores.",
+        "A primeira sessão de psicoterapia é um momento de acolhimento, onde vamos conversar livremente sobre suas demandas e expectativas e pensarmos se faz sentido nossa aliança terapêutica. É um encontro que tem como objetivo o desenho das possibilidades de trabalho e a organização do contrato terapêutico, como horários, modalidade e valores.",
     },
     {
       question: "Qual a duração e frequência das sessões?",
@@ -20,11 +20,6 @@ export default function FAQ() {
       question: "Você atende convênios e planos de saúde?",
       answer:
         "No momento atendo apenas particular, mas forneço recibo para reembolso junto ao seu plano de saúde. Consulte as condições do seu convênio.",
-    },
-    {
-      question: "Terapia online funciona? É tão eficaz quanto a presencial?",
-      answer:
-        "Sim, a terapia online é eficaz. Diversas pesquisas mostram resultados equivalentes entre as modalidades. O essencial é o vínculo terapêutico, e ele se constrói tanto no consultório quanto pela tela, com a mesma escuta cuidadosa.",
     },
     {
       question: "Quanto tempo dura o processo terapêutico?",
@@ -43,10 +38,10 @@ export default function FAQ() {
         <div className="bg-[#f5efe7] rounded-[48px] md:rounded-[80px] px-6 py-16 md:py-20 md:px-12 lg:px-20">
           <div className="text-center max-w-[620px] mx-auto mb-12 md:mb-16">
             <h2 className="font-serif text-[32px] md:text-[40px] font-normal leading-tight text-[#4a4444] mb-3 tracking-tight">
-              Perguntas Frequentes
+              Dúvidas
             </h2>
             <p className="text-[#9e9282] text-[16px] md:text-[18px]">
-              Respostas para as dúvidas mais comuns sobre psicoterapia
+              Respostas para as perguntas mais frequentes sobre a psicoterapia.
             </p>
           </div>
 
