@@ -36,7 +36,7 @@ export default function Sobre() {
               >
                 <ImageWithFallback
                   src={newPhoto}
-                  alt="Jamille Ovadia Moraes, psicóloga, em seu consultório no Barro Preto, Belo Horizonte"
+                  alt="Jamille Ovadia Moraes, psicóloga, em seu consultório no Centro, Belo Horizonte"
                   className="w-full h-full object-cover object-[50%_24%] transition-transform duration-1000 ease-out group-hover:scale-[1.05] transform-gpu will-change-transform"
                   loading="lazy"
                 />

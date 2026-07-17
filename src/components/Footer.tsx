@@ -5,7 +5,7 @@ import { MapPin, Phone, Clock, AlertTriangle, Mail, Linkedin } from "lucide-reac
 export default function Footer() {
   const [isMobile, setIsMobile] = useState(false);
   const [showPhoneOptions, setShowPhoneOptions] = useState(false);
-  const [mapsUrl, setMapsUrl] = useState("https://www.google.com/maps/search/?api=1&query=Rua%20Tenente%20Brito%20Melo,%201355%20-%20Barro%20Preto,%20Belo%20Horizonte%20-%20MG,%2030180-070");
+  const [mapsUrl, setMapsUrl] = useState("https://www.google.com/maps/search/?api=1&query=Av.%20Afonso%20Pena,%20867%20-%20Centro,%20Belo%20Horizonte%20-%20MG,%2030130-905");
 
   useEffect(() => {
     const checkPlatform = () => {
@@ -16,7 +16,7 @@ export default function Footer() {
 
       const isApple = /iPad|iPhone|iPod|Macintosh/i.test(userAgent);
       if (isApple) {
-        setMapsUrl("https://maps.apple.com/?q=Rua%20Tenente%20Brito%20Melo,%201355%20-%20Barro%20Preto,%20Belo%20Horizonte%20-%20MG,%2030180-070");
+        setMapsUrl("https://maps.apple.com/?q=Av.%20Afonso%20Pena,%20867%20-%20Centro,%20Belo%20Horizonte%20-%20MG,%2030130-905");
       }
     };
     checkPlatform();
@@ -130,7 +130,7 @@ export default function Footer() {
                 scrolling="no"
                 marginHeight={0}
                 marginWidth={0}
-                src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=Rua%20Tenente%20Brito%20Melo,%201355%20-%20Barro%20Preto,%20Belo%20Horizonte%20-%20MG+(Consult%C3%B3rio)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=Av.%20Afonso%20Pena,%20867%20-%20Centro,%20Belo%20Horizonte%20-%20MG+(Consult%C3%B3rio)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 title="Localização do Consultório no Google Maps"
               ></iframe>
             </div>
@@ -145,9 +145,9 @@ export default function Footer() {
                 <MapPin className="w-4 h-4" />
               </div>
               <span className="leading-tight font-medium">
-                Rua Tenente Brito Melo, 1355 - Barro Preto
+                Av. Afonso Pena, 867, sala 1415 - Edifício Acaiaca
                 <br />
-                <span className="text-xs font-normal">Belo Horizonte - MG, 30180-070</span>
+                <span className="text-xs font-normal">Belo Horizonte - MG, 30130-905</span>
               </span>
             </a>
 
